@@ -1,0 +1,27 @@
+.uitgelicht {
+	background-color: bisque;
+}
+.populair {
+	background-color: darkkhaki;
+}
+.recent {
+	background-color: lightskyblue;
+}
+footer {
+	background-color: pink;
+}
+
+
+/* Tekstopmaak */
+h1 {
+	font-family: 'Caveat', cursive;
+}
+
+/* Elementen */
+article {
+	padding: 1em;
+}
+
+article, aside, details, div, dt, figcaption, footer, form, header, hgroup, html, main, nav, section, summary {
+    display: block;
+}

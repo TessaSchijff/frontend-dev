@@ -1,19 +1,157 @@
-<!doctype html>
-<html lang="nl">
-	
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>Naam van je site en/of pagina</title>
-	
-	<link href="styles/style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>frontend-website Tessa Schijff</title>
+    <meta name="description" content="Deze site heb ik gemaakt voor mijn opleiding CMD voor het vak frontend-development">
+
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style-main.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/style-grid.css" type="text/css" media="all">
 </head>
 
-<body>
 
-	<script src="scripts/script.js"></script>
+
+<body class="site">
+
+    <header>
+        <!-- ========== NAVIGATIE ========== -->
+        <nav class="menubalk" aria-labelledby="menubalk">
+        <!-- <button aria-hidden="true">Menu</button> -->
+            <ul>
+                <li><a href="reizen.html" class="dropbtn">Reizen</a></li>
+                    <!--Reistips
+                        Budget 
+                        Reisroutes
+                        Wereldreis -->
+                <li><a href="bestemmingen.html">Bestemmingen</a>
+                <li><a href="lekkerleven.html">Lekker leven</a></li>
+            </ul>
+        </nav>
+
+        <!-- ========== CAROUSEL ========== -->
+        <section class="carousel-top">
+            <img src="img/car-ardennen.jpg" alt="Ardennen" class="afbeelding-in-carousel">
+            <h1>Ardennen</h1>
+            <!-- nogmeer-->
+          </section>
+    </header>
+
+
+    <main>
+        <!-- ******* Uitgelicht ******* -->
+        <section class="uitgelicht">
+            <h2>Uitgelicht</h2>
+            <p>De Canarische Eilanden. Het blijft een heerlijke vakantiebestemming. Ondanks dat deze Spaanse eilanden niet bepaald meer onontdekt zijn, vind ik het één van de leukste bestemmingen binnen Europa. De eilanden zijn onderling verrassend verschillend, het eten is er heel eigen, je kunt er supermooi wandelen, de eilanden zijn goed bereisbaar én het klimaat is er stabiel mild. Het hele jaar zijn de Canarische Eilanden qua temperatuur eigenlijk prima om naar toe te gaan. Vooral het voor- en najaar vind ik er echter heerlijk. Als het hier in Nederland al weer wat herfstig begint te worden bijvoorbeeld. Dan is het daar met gemak nog 20-25 graden Celsius. Heerlijk toch? In dit artikel neem ik je mee naar de drie Canarische Eilanden waar ik zelf ben geweest: Tenerife, Lanzarote en Fuerteventura. Ik vertel je over de verschillen én ik geef je mijn persoonlijke reistips. Mocht je nog op zoek zijn naar een lekkere vakantiebestemming binnen Europa, hoop ik je hiermee te inspireren Lachen!</p>
+  
+            <div class="kliko">
+                <article class="card">
+                    <img src="img/car-staycation.png" alt="staycation">
+                    <h3>Staycation: de leukste adresjes voor een zomer in Nederland</h3>
+                    <time class="postingdatum">03-07-2020</time>
+                    <p>23 reacties</p>
+                    <p>0 likes</p>
+                </article>
+      
+                <article class="card">
+                    <img src="img/uitg-backpacken-foutjes.jpg" alt="backpacker foutjes">
+                    <h3>10 Backpacker foutjes die je moet voorkomen</h3>
+                    <time class="postingdatum">02-01-2020</time>
+                    <p>16 reacties</p>
+                    <p>0 likes</p>
+                </article>
+      
+                <article class="card">
+                  <img src="img/uitg-kosten-wereldreis.jpg" alt="kosten wereldreis">
+                  <h3>Wat heeft onze wereldreis gekost?</h3>
+                  <time class="postingdatum">22-08-2016</time>
+                  <p>32 reacties</p>
+                  <p>0 likes</p>
+                </article>
+            </div>
+        </section>
+
+
+        <!-- ******* Populair ******* -->
+        <section class="populair">
+            <h2>Populaire bestemmingen</h2>
+            <p>De Canarische Eilanden. Het blijft een heerlijke vakantiebestemming. Ondanks dat deze Spaanse eilanden niet bepaald meer onontdekt zijn, vind ik het één van de leukste bestemmingen binnen Europa. De eilanden zijn onderling verrassend verschillend, het eten is er heel eigen, je kunt er supermooi wandelen, de eilanden zijn goed bereisbaar én het klimaat is er stabiel mild. Het hele jaar zijn de Canarische Eilanden qua temperatuur eigenlijk prima om naar toe te gaan. Vooral het voor- en najaar vind ik er echter heerlijk. Als het hier in Nederland al weer wat herfstig begint te worden bijvoorbeeld. Dan is het daar met gemak nog 20-25 graden Celsius. Heerlijk toch? In dit artikel neem ik je mee naar de drie Canarische Eilanden waar ik zelf ben geweest: Tenerife, Lanzarote en Fuerteventura. Ik vertel je over de verschillen én ik geef je mijn persoonlijke reistips. Mocht je nog op zoek zijn naar een lekkere vakantiebestemming binnen Europa, hoop ik je hiermee te inspireren Lachen!</p>
+            
+            <div class="kliko">
+                <figure class="bestemmingen">
+                    <img src="img/xx-aruba.jpg" alt="Aruba">
+                    <figcaption>Aruba</figcaption>
+                  </figure>
+          
+                  <figure class="bestemmingen">
+                    <img src="img/xx-costa-rica.jpg" alt="Costa rica">
+                    <figcaption>Costa Rica</figcaption>
+                  </figure>
+          
+                  <figure class="bestemmingen">
+                    <img src="img/xx-iran.jpg" alt="Iran">
+                    <figcaption>Iran</figcaption>
+                  </figure>
+    
+                  <figure class="bestemmingen">
+                    <img src="img/xx-borneo.jpg" alt="Maleisie">
+                    <figcaption>Maleisie</figcaption>
+                  </figure>
+            </div>
+            
+            <button>Alle landen</button>
+        </section>
+
+        <!-- ******* Recente artikelen ******* -->
+        <section class="recent">
+            <h2>Recente artikelen</h2>
+            <p>De Canarische Eilanden. Het blijft een heerlijke vakantiebestemming. Ondanks dat deze Spaanse eilanden niet bepaald meer onontdekt zijn, vind ik het één van de leukste bestemmingen binnen Europa. De eilanden zijn onderling verrassend verschillend, het eten is er heel eigen, je kunt er supermooi wandelen, de eilanden zijn goed bereisbaar én het klimaat is er stabiel mild. Het hele jaar zijn de Canarische Eilanden qua temperatuur eigenlijk prima om naar toe te gaan. Vooral het voor- en najaar vind ik er echter heerlijk. Als het hier in Nederland al weer wat herfstig begint te worden bijvoorbeeld. Dan is het daar met gemak nog 20-25 graden Celsius. Heerlijk toch? In dit artikel neem ik je mee naar de drie Canarische Eilanden waar ik zelf ben geweest: Tenerife, Lanzarote en Fuerteventura. Ik vertel je over de verschillen én ik geef je mijn persoonlijke reistips. Mocht je nog op zoek zijn naar een lekkere vakantiebestemming binnen Europa, hoop ik je hiermee te inspireren Lachen!</p>
+
+            <article class="card">
+                <img src="img/car-staycation.png" alt="staycation">
+                <h3>Titel van card</h3>
+                <time class="postingdatum">01-10-2020</time>
+                <p>reacties</p>
+                <p>likes</p>
+            </article>
+
+            <article class="card">
+                <img src="img/car-staycation.png" alt="staycation">
+                <h3>Titel van card</h3>
+                <time class="postingdatum">01-10-2020</time>
+                <p>reacties</p>
+                <p>likes</p>
+            </article>
+            
+            <article class="card">
+                <img src="img/car-staycation.png" alt="staycation">
+                <h3>Titel van card</h3>
+                <time class="postingdatum">01-10-2020</time>
+                <p>reacties</p>
+                <p>likes</p> 
+            </article>
+        </section>
+
+    </main>
+
+    <footer class="voetrrr">
+        
+        <nav class="footermenu" aria-labelledby="promotie-van-reismeisje">
+            <ul>
+                <li><a href="overreismeisje.html">Over reismeisje</a>
+                <li><a href="media.html">In de media</a>
+                <li><a href="opdrachtgevers.html">Opdrachtgevers</a>
+                <li><a href="contact.html"> Contact</a></li>
+                <li><a href="nieuwsbrief.html">Nieuwsbrief</a>
+            </ul>
+          </nav>
+
+    </footer>
+
+    <script src="scripts/script.js"></script>
 </body>
-	
+
 </html>
